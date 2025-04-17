@@ -13,7 +13,7 @@ const port=process.env.PORT;
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-    origin:"http://chatmern-six.vercel.app",
+    origin:"https://chatmern-six.vercel.app",
     credentials:true,
 }))
 app.use("/api/auth",authRoutes);
