@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export const axiosInstance = axios.create({
-    baseURL: "http://localhost:3797/api",
+    baseURL: "https://chatmern-rmyi.onrender.com/api",
     withCredentials: true,
     // headers: {
     //     "Content-Type": "application/json",
